@@ -232,13 +232,6 @@ a.white-link {
   color: red;
 }
 
-/* @media (min-width: 451px) {
-  .mobile-only {
-    max-width: 450px;
-    max-height: 750px;
-  }
-} */
-
 @media screen and (max-width: 450px) {
   .hero-header {
     padding-top: 20px;
@@ -272,3 +265,40 @@ a.white-link {
     font-size: 22px;
   }
 }
+
+
+/* detail page */
+
+.detail-header, .detail-body {
+  padding: 0 15px 5px 15px;
+}
+
+.detail-photo {
+  height: 240px;
+  background-color: darkgray;
+  overflow: hidden;
+}
+.detail-photo img {
+  height: 100%;
+}
+
+.hr-top {
+  border-top: 1px #ccc solid;
+  padding-top: 20px;
+}
+
+.detail-muted, .detail-source {
+  color: #999;
+  font-size: 14px;
+}
+ 
+.bg-lightgrey {
+  background-color: #eee;
+}
+
+.back-btn i {
+  font-size: 25px;
+  color: #fff;
+}
+
+/* end detail page */
